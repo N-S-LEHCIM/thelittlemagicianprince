@@ -31,7 +31,7 @@ public class PlayerCtrl : MonoBehaviour
 
     private bool isGrounded()
     {
-        return Physics.BoxCast(transform.position, new Vector3(0.4f, 0f, 0.4f), Vector3.down, Quaternion.identity, distanceToGround + 0.1f);
+       return Physics.BoxCast(transform.position, new Vector3(0.4f, 0f, 0.4f), Vector3.down, Quaternion.identity, distanceToGround + 0.1f);
     }
 
     void Update()
@@ -42,6 +42,7 @@ public class PlayerCtrl : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded())
         {
+            Jump();
             _rigidbody.AddForce(-_gravityBody.GravityDirection * _jumpForce, ForceMode.Impulse);
         }
         //Move();
@@ -65,7 +66,10 @@ public class PlayerCtrl : MonoBehaviour
 
         _animator.SetBool("isRun", isRunning);
     }
-
+    private void Jump()
+    {
+        _rigidbody.AddForce(0, _jumpForce, 0);
+    }
     //private void Move()
     //{
     //    float ejeHorizontal = Input.GetAxis("Horizontal");
