@@ -20,13 +20,15 @@ public class PlayerCtrl : MonoBehaviour
     private Vector3 _direction;
 
     private GravityBody _gravityBody;
+    private InventoryManager _inventory;
 
     void Start()
-    {
+    { 
+        distanceToGround = GetComponent<Collider>().bounds.extents.y;
         _rigidbody = transform.GetComponent<Rigidbody>();
         _gravityBody = transform.GetComponent<GravityBody>();
-        distanceToGround = GetComponent<Collider>().bounds.extents.y;
         _animator.SetBool("isRun", false);
+        _inventory = GetComponent<InventoryManager>();
     }
 
     private bool isGrounded()
@@ -44,6 +46,20 @@ public class PlayerCtrl : MonoBehaviour
         {
             Jump();
             _rigidbody.AddForce(-_gravityBody.GravityDirection * _jumpForce, ForceMode.Impulse);
+        }
+        if (Input.GetKeyUp(KeyCode.G))
+        {
+            UseItem();
+        }
+
+        if (Input.GetKeyUp(KeyCode.H))
+        {
+            UseItem();
+        }
+
+        if (Input.GetKeyUp(KeyCode.J))
+        {
+            UseItem();
         }
         //Move();
     }
@@ -69,6 +85,22 @@ public class PlayerCtrl : MonoBehaviour
     private void Jump()
     {
         _rigidbody.AddForce(0, _jumpForce, 0);
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Food"))
+        {
+            GameObject food = other.gameObject;
+            food.SetActive(false);
+
+
+        }
+    }
+    private void UseItem()
+    {
+        GameObject food = _inventory.GetInventoryOne();
+        food.SetActive(true);
+        food.transform.position = transform.position + new Vector3(1f, .1f, .1f);
     }
     //private void Move()
     //{
