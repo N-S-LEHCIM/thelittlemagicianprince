@@ -85,6 +85,7 @@ public class PlayerCtrl : MonoBehaviour
     private void Jump()
     {
         _rigidbody.AddForce(0, _jumpForce, 0);
+        _animator.SetTrigger("isJump");
     }
     private void OnTriggerEnter(Collider other)
     {
