@@ -7,6 +7,7 @@ public class ProfileManager : MonoBehaviour
     public static ProfileManager instance;
     // Start is called before the first frame update
     [SerializeField] private string playerName;
+    [SerializeField] private bool isVisibleName;
 
     private void Awake()
     {
@@ -39,4 +40,14 @@ public class ProfileManager : MonoBehaviour
     {
         return playerName;
     }
+    public void SetVisibleName(bool newStatus)
+    {
+        isVisibleName = newStatus;
+    }
+
+    public bool GetVisibleName()
+    {
+        return isVisibleName;
+    }
+
 }

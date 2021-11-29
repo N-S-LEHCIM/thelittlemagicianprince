@@ -33,6 +33,8 @@ public class LandingController : MonoBehaviour
     public void OnChangeToggleName(bool newStatus)
     {
         Debug.Log("DINAMICO END" + newStatus);
+        ProfileManager.instance.SetVisibleName(newStatus);
+        Debug.Log("NEW PLAYER NAME " + ProfileManager.instance.GetVisibleName());
     }
     public void OnClickPlay()
     {
