@@ -47,24 +47,12 @@ public class PlayerCtrl : MonoBehaviour
             Jump();
             _rigidbody.AddForce(-_gravityBody.GravityDirection * _jumpForce, ForceMode.Impulse);
         }
-        if (Input.GetKeyUp(KeyCode.G))
+        if (Input.GetKeyUp(KeyCode.F))
         {
             UseItem();
         }
-
-        if (Input.GetKeyUp(KeyCode.H))
-        {
-            UseItem();
-        }
-
-        if (Input.GetKeyUp(KeyCode.J))
-        {
-            UseItem();
-        }
-        //Move();
+        
     }
-
-
     void FixedUpdate()
     {
         bool isRunning = _direction.magnitude > 0.1f;
@@ -93,39 +81,16 @@ public class PlayerCtrl : MonoBehaviour
         {
             GameObject food = other.gameObject;
             food.SetActive(false);
-
-
+            _inventory.AddInventoryOne(food.name, food);
+            _inventory.SeeInventoryOne();
+            _inventory.CountFood(food);
         }
     }
     private void UseItem()
     {
         GameObject food = _inventory.GetInventoryOne();
         food.SetActive(true);
-        food.transform.position = transform.position + new Vector3(1f, .1f, .1f);
+        food.transform.position = transform.position + new Vector3(1f, 1f, 1f);
     }
-    //private void Move()
-    //{
-    //    float ejeHorizontal = Input.GetAxis("Horizontal");
-    //    float ejeVertical = Input.GetAxis("Vertical");
 
-    //    if (ejeHorizontal != 0 || ejeVertical != 0)
-    //    {
-    //        _animator.SetBool("isRun", true);
-    //        Vector3 direction = new Vector3(ejeHorizontal, 0, ejeVertical);
-    //        transform.Translate(_speed * Time.deltaTime * direction);
-
-    //        //if (!audioPlayer.isPlaying)
-    //        //{
-    //        //    audioPlayer.PlayOneShot(walkSound, 0.5f);
-    //        //    //audioPlayer.Play();
-    //        //}
-
-    //        //audioPlayer.PlayOneShot(walkSound, 0.5f);
-    //    }
-    //    else
-    //    {
-    //        _animator.SetBool("isRun", false);
-    //        //audioPlayer.Stop();
-    //    }
-    //}
 }

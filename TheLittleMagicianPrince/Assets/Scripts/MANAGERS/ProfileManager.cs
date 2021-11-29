@@ -2,20 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class ProfileManager : MonoBehaviour
 {
-    public static GameManager instance;
-    public static int score;
-    private int scoreInstanciado;
+    public static ProfileManager instance;
+    // Start is called before the first frame update
+    [SerializeField] private string playerName;
 
     private void Awake()
     {
-        if (instance == null)
+        if(instance == null)
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
-            score = 0;
-            scoreInstanciado = 0;
         }
         else
         {
@@ -24,19 +22,21 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
-
+        
     }
+
     // Update is called once per frame
     void Update()
     {
+        
+    }
+    public void SetPlayerName(string newName)
+    {
+        playerName = newName;
+    }
 
-    }
-    public void addScore()
+    public string GetPlayerName()
     {
-        instance.scoreInstanciado += 1;
-    }
-    public static int GetScore()
-    {
-        return instance.scoreInstanciado;
+        return playerName;
     }
 }
