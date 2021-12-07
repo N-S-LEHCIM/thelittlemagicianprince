@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class PlayerCtrl : MonoBehaviour
 {
-
+    [SerializeField] private int lifePlayer = 100;
     [SerializeField] private LayerMask _groundMask;
     [SerializeField] private Transform _groundCheck;
     [SerializeField] private Transform _cam;
@@ -22,6 +23,9 @@ public class PlayerCtrl : MonoBehaviour
     private GravityBody _gravityBody;
     private InventoryManager _inventory;
 
+    //EVENTS
+    public static event Action onDeath;
+    public static event Action<int> onLifes;
     void Start()
     { 
         distanceToGround = GetComponent<Collider>().bounds.extents.y;
@@ -29,6 +33,7 @@ public class PlayerCtrl : MonoBehaviour
         _gravityBody = transform.GetComponent<GravityBody>();
         _animator.SetBool("isRun", false);
         _inventory = GetComponent<InventoryManager>();
+        onLifes?.Invoke(lifePlayer); //NUMERO DE VIDAS DEL PLAYER
     }
 
     private bool isGrounded()
@@ -86,7 +91,22 @@ public class PlayerCtrl : MonoBehaviour
             _inventory.CountFood(food);
         }
     }
-    private void UseItem()
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            lifePlayer--;
+            Destroy(collision.gameObject);
+            onLifes?.Invoke(lifePlayer); //NUMERO DE VIDAS DEL PLAYER
+            if (lifePlayer == 0)
+            {
+                //Debug.Log("GAME OVER");
+                //onDeath();
+                onDeath?.Invoke();
+            }
+        }
+    }
+        private void UseItem()
     {
         GameObject food = _inventory.GetInventoryOne();
         food.SetActive(true);
