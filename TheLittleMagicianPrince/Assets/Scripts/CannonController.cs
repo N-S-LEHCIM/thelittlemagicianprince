@@ -7,33 +7,34 @@ public class CannonController : MonoBehaviour
 
     [SerializeField] private GameObject shootOrigen;
     [SerializeField] private float distanceRay = 10f;
-
     [SerializeField] private int shootCooldown = 2;
     [SerializeField] private float timerShoot = 0;
     [SerializeField] private GameObject bulletPrefab;
 
     private bool canShoot = true;
+    [SerializeField] private bool isActive = true;
     void Start()
     {
-
     }
-    // Update is called once per frame
     void Update()
     {
-        if (canShoot)
+        if (isActive)
         {
-            RaycastCannon();
-        }
-        else
-        {
-            timerShoot += Time.deltaTime;
-        }
-
-        if (timerShoot > shootCooldown)
-        {
-            canShoot = true;
+            if (canShoot)
+            {
+                RaycastCannon();
+            }
+            else
+            {
+                timerShoot += Time.deltaTime;
+            }
+            if (timerShoot > shootCooldown)
+            {
+                canShoot = true;
+            }
         }
     }
+    
     private void RaycastCannon()
     {
         RaycastHit hit;

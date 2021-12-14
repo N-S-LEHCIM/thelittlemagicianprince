@@ -15,13 +15,11 @@ public class HUBcontroller : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
-           PlayerCtrl.onLifes += OnlifeChangeHandler;
+        PlayerCtrl.onLifes += OnlifeChangeHandler;
     }
     void Start()
     {
-     
         PlayerCtrl.onDeath += OnDeadHandler;
-        //GameObject.Find("Player").GetComponent<PlayerCtrl>().onDeath += onDeadHandler;
     }
     
     private void OnDeadHandler()

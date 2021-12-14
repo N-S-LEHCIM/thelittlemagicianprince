@@ -40,7 +40,6 @@ public class InventoryManager : MonoBehaviour
     {
 
     }
-
     public void AddInventoryOne(string name, GameObject item)
     {
         inventoryOne.Push(item); //AGREGAR ITEM
@@ -50,8 +49,6 @@ public class InventoryManager : MonoBehaviour
     {
         return inventoryOne.Pop() as GameObject; //SACA ITEM, pero hay que decir de que tipo guarda
     }
-
-
     public void SeeInventoryOne()
     {
         Debug.Log(inventoryOne.ToString());
@@ -60,7 +57,6 @@ public class InventoryManager : MonoBehaviour
             Debug.Log(item.ToString());
         }
     }
-
     public bool InventoryOneHas()
     {
         return inventoryOne.Count > 0;
