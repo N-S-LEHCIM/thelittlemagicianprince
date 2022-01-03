@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 22000.318; Version 2009; 64bit' Language: 'es' Physical Memory: 16155 MB
+OS: 'Windows 10 Home; OS build 22000.376; Version 2009; 64bit' Language: 'es' Physical Memory: 16155 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,13 +15,13 @@ C:/Users/USUARIO/Desktop/MICHEL/PROYECTOs/thelittlemagicianprince/TheLittleMagic
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58912
+50423
 Successfully changed project path to: C:/Users/USUARIO/Desktop/MICHEL/PROYECTOs/thelittlemagicianprince/TheLittleMagicianPrince
 C:/Users/USUARIO/Desktop/MICHEL/PROYECTOs/thelittlemagicianprince/TheLittleMagicianPrince
 Using Asset Import Pipeline V2.
 Default GameObject BitMask: Player already registered
 
-Refreshing native plugins compatible for Editor in 81.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 73.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -37,91 +37,91 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002540 seconds.
+Registered in 0.001723 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 146.20 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 80.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.204 seconds
+- Completed reload, in  1.599 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2205ms)
-		BeginReloadAssembly (173ms)
+	ReloadAssembly (1600ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (980ms)
-			LoadAssemblies (166ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (612ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
+			SetupTypeCache (210ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (554ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (260ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (151ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (271ms)
-				ProcessInitializeOnLoadMethodAttributes (74ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005233 seconds.
+Registered in 0.004760 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.545 seconds
+- Completed reload, in  1.707 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1551ms)
-		BeginReloadAssembly (235ms)
+	ReloadAssembly (1708ms)
+		BeginReloadAssembly (201ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1229ms)
-			LoadAssemblies (125ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1423ms)
+			LoadAssemblies (120ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (405ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (472ms)
+			SetupTypeCache (406ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (639ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (126ms)
-				ProcessInitializeOnLoadAttributes (324ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (208ms)
+				ProcessInitializeOnLoadAttributes (394ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Default GameObject BitMask: Player already registered
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 82.3 MB.
 System memory in use after: 82.3 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2134.
-Total: 2.733100 ms (FindLiveObjects: 0.256400 ms CreateObjectMapping: 0.121200 ms MarkObjects: 2.227000 ms  DeleteObjects: 0.127100 ms)
+Total: 3.283300 ms (FindLiveObjects: 0.292800 ms CreateObjectMapping: 0.111000 ms MarkObjects: 2.729400 ms  DeleteObjects: 0.148000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,574 +135,58 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Music_T/bass-guitar.fbx
-  artifactKey: Guid(1a1f9e492fa6f854b859aac3830906f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Music_T/bass-guitar.fbx using Guid(1a1f9e492fa6f854b859aac3830906f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d7d4f6cdb23d37fcada9ff686f6191') in 0.285037 seconds 
-  Import took 0.295087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001041 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Fantasy_T/bed-wood.fbx
-  artifactKey: Guid(4b35f2e4aa4c6415ba8440ca95b6edea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Fantasy_T/bed-wood.fbx using Guid(4b35f2e4aa4c6415ba8440ca95b6edea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69da1032d4f298e6c0b1f5812acf47d1') in 0.041183 seconds 
-  Import took 0.052301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000631 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Survival_T/bear-trap.fbx
-  artifactKey: Guid(db42d3419d3cb4769af5796f010ee9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Survival_T/bear-trap.fbx using Guid(db42d3419d3cb4769af5796f010ee9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0710d0d4ccfab0cfb9125fdd92c269') in 0.020277 seconds 
-  Import took 0.026928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000592 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Props_T/bench-old.fbx
-  artifactKey: Guid(9c72aa2e8d0694d55a2295be9e93e3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Props_T/bench-old.fbx using Guid(9c72aa2e8d0694d55a2295be9e93e3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d13eeec9e1c95d65be4dc6577e2203') in 0.023158 seconds 
-  Import took 0.030300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000643 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/boat-sail.fbx
-  artifactKey: Guid(63875e8ccfcd3eb4981b8612d314c19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/boat-sail.fbx using Guid(63875e8ccfcd3eb4981b8612d314c19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f6bcd9c51ce46b38ae1f7076b403dd') in 0.038844 seconds 
-  Import took 0.047385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000570 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Racing_T/barrier-concrete-glass.fbx
-  artifactKey: Guid(215f07555d880874a92848886df67ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Racing_T/barrier-concrete-glass.fbx using Guid(215f07555d880874a92848886df67ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3955174925ac1a481a65d43c79493a9d') in 0.031023 seconds 
-  Import took 0.039007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000608 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Beach_T/beach-bag.fbx
-  artifactKey: Guid(27417e8aa917d4da0a4ae1c83ef22b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Beach_T/beach-bag.fbx using Guid(27417e8aa917d4da0a4ae1c83ef22b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2010d9bcdd02171691470aec387694f7') in 0.027044 seconds 
-  Import took 0.035390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000540 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Apocalypse_T/body-bag.fbx
-  artifactKey: Guid(13629a3fbe0194fcb8da38ff3d2c973d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Apocalypse_T/body-bag.fbx using Guid(13629a3fbe0194fcb8da38ff3d2c973d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74479e3480cafd7b299e398cbbf7de58') in 0.026291 seconds 
-  Import took 0.034779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000626 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Food_T/beer.fbx
-  artifactKey: Guid(e29f4a4866d527647bc8efbcae020e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Food_T/beer.fbx using Guid(e29f4a4866d527647bc8efbcae020e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24dfc6282dd5e6d629211d2b0f57d9b4') in 0.026931 seconds 
-  Import took 0.034703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000614 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/boat-china.fbx
-  artifactKey: Guid(61102e40f664bbe45a854db4eb547566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/boat-china.fbx using Guid(61102e40f664bbe45a854db4eb547566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf648a19323fa2da67bcf290b412ea70') in 0.029756 seconds 
-  Import took 0.037165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000714 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Furniture_T/bath.fbx
-  artifactKey: Guid(b491d524a33f7481c99ffa2d25e43b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Furniture_T/bath.fbx using Guid(b491d524a33f7481c99ffa2d25e43b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db47c12c8be1dfecaa7fcd08a3f73c5f') in 0.023724 seconds 
-  Import took 0.031154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000575 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Zulu_T/blockhouse-general-major.fbx
-  artifactKey: Guid(fe264dd7e211728499f7c1af4c6bb4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Zulu_T/blockhouse-general-major.fbx using Guid(fe264dd7e211728499f7c1af4c6bb4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ccddf144c4b38c45296a72004d6203') in 0.027018 seconds 
-  Import took 0.034090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000592 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Western_T/barrel-old.fbx
-  artifactKey: Guid(25c61bc2335af47439cb56250b46caca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Western_T/barrel-old.fbx using Guid(25c61bc2335af47439cb56250b46caca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d61453c08d497fe0e6a3f84be3fb50') in 0.021552 seconds 
-  Import took 0.028586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001164 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Apocalypse_T/barrier-concrete-tank.fbx
-  artifactKey: Guid(89af6946b6fc246149c0fe13557a7949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Apocalypse_T/barrier-concrete-tank.fbx using Guid(89af6946b6fc246149c0fe13557a7949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196411c8f5869a2f3788bff2f2d1bf4a') in 0.024195 seconds 
-  Import took 0.031265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000588 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Apocalypse_T/barrel-empty.fbx
-  artifactKey: Guid(8da38c8eeec6648d29f39ef7deb7fcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Apocalypse_T/barrel-empty.fbx using Guid(8da38c8eeec6648d29f39ef7deb7fcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51d81075fed19a307ec39f3475b0cc8') in 0.021727 seconds 
-  Import took 0.030509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000520 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Western_T/bank-western.fbx
-  artifactKey: Guid(4ae37c71ef2a14dbe99925d019ed90f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Western_T/bank-western.fbx using Guid(4ae37c71ef2a14dbe99925d019ed90f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7364e9844df963eb9066ea4bfedc8fd9') in 0.037748 seconds 
-  Import took 0.046700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000574 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Fantasy_T/book-closed.fbx
-  artifactKey: Guid(c268c5c6a143f440983a0aae6f674b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Fantasy_T/book-closed.fbx using Guid(c268c5c6a143f440983a0aae6f674b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9271ddd13427f3f24acfef28f3fd321d') in 0.030726 seconds 
-  Import took 0.038933 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000701 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Apocalypse_T/barrel.fbx
-  artifactKey: Guid(83f2f34b8a6194e0ab1933ae871ecfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Apocalypse_T/barrel.fbx using Guid(83f2f34b8a6194e0ab1933ae871ecfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ff445bc9a021043760b93642f4e633') in 0.025656 seconds 
-  Import took 0.034334 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000702 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Fantasy_T/books-pile.fbx
-  artifactKey: Guid(049344dff9584466389c2495c5e9cc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Fantasy_T/books-pile.fbx using Guid(049344dff9584466389c2495c5e9cc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c344f82bbc61a72d106b475211724d') in 0.022290 seconds 
-  Import took 0.029697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000601 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Fantasy_T/bed-prison.fbx
-  artifactKey: Guid(086599f29385d43cd9a8b4d31b8f2cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Fantasy_T/bed-prison.fbx using Guid(086599f29385d43cd9a8b4d31b8f2cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1751f53fa90c105279c61024931277') in 0.022231 seconds 
-  Import took 0.028834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000582 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Scifi_T/belt-moving-straight.fbx
-  artifactKey: Guid(19f88a230b779cc42a51663545251b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Scifi_T/belt-moving-straight.fbx using Guid(19f88a230b779cc42a51663545251b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd889b025c64d8a1df73345932483b8a') in 0.019994 seconds 
-  Import took 0.027344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000585 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Food_T/banana.fbx
-  artifactKey: Guid(cf1f790a6d9173649ad22dee0e7471e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Food_T/banana.fbx using Guid(cf1f790a6d9173649ad22dee0e7471e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc8f71a075cb7068a75130592b4926b') in 0.020091 seconds 
-  Import took 0.028488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000592 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Props_T/bench-forest.fbx
-  artifactKey: Guid(bd675b82ff38c48168125c082d33143c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Props_T/bench-forest.fbx using Guid(bd675b82ff38c48168125c082d33143c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408fe2e77104b78b9fdea8cae909efa4') in 0.019734 seconds 
-  Import took 0.027832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000607 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Scifi_T/belt-moving-up.fbx
-  artifactKey: Guid(2c75406408b4be649a8f9b566385c0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Scifi_T/belt-moving-up.fbx using Guid(2c75406408b4be649a8f9b566385c0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f59a816a0f66415c1cf079c3fcaae1') in 0.020320 seconds 
-  Import took 0.027867 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000684 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Fantasy_T/book-open.fbx
-  artifactKey: Guid(6a34281ea19874b61a2730e168709d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Fantasy_T/book-open.fbx using Guid(6a34281ea19874b61a2730e168709d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064c3937b88884a584ec97d1e6601630') in 0.020356 seconds 
-  Import took 0.028408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000654 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/boat-speed.fbx
-  artifactKey: Guid(47872d1e89f90f34fa3416cf9b02cbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/boat-speed.fbx using Guid(47872d1e89f90f34fa3416cf9b02cbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f74c1233456bdcefc75575ea6b4c3f') in 0.021365 seconds 
-  Import took 0.027907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000595 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Racing_T/barrier-traffic.fbx
-  artifactKey: Guid(7b6508783209f4d4f916e4330ad5f16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Racing_T/barrier-traffic.fbx using Guid(7b6508783209f4d4f916e4330ad5f16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5bb3068352480e0bc9301b259849b94') in 0.019321 seconds 
-  Import took 0.025926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000594 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Props_T/bike-stand.fbx
-  artifactKey: Guid(c1454b6234e8a6c458fe4af77856eb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Props_T/bike-stand.fbx using Guid(c1454b6234e8a6c458fe4af77856eb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb83a3dc9fe3236f30534cfda8215420') in 0.021562 seconds 
-  Import took 0.028026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000571 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Apocalypse_T/blood-spill.fbx
-  artifactKey: Guid(479fd9e3a932f4850a2c14f5e5114887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Apocalypse_T/blood-spill.fbx using Guid(479fd9e3a932f4850a2c14f5e5114887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70daeb1872efafab2ba0bbad2d8d9414') in 0.019488 seconds 
-  Import took 0.026106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000593 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Apocalypse_T/barrier-concrete-demaged.fbx
-  artifactKey: Guid(be017ff2270a342bdbbd65bc3965958e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Apocalypse_T/barrier-concrete-demaged.fbx using Guid(be017ff2270a342bdbbd65bc3965958e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ad969a755118f2b54d6b60d0eda644') in 0.020337 seconds 
-  Import took 0.028177 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000582 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Survival_T/battery-9v.fbx
-  artifactKey: Guid(be7eb194938f10541afd1a57c759bbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Survival_T/battery-9v.fbx using Guid(be7eb194938f10541afd1a57c759bbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48410db177a94c83730236809efd193e') in 0.020114 seconds 
-  Import took 0.028128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000676 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Furniture_T/bed-large.fbx
-  artifactKey: Guid(47d6c60b783ab4886881859dee1d56d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Furniture_T/bed-large.fbx using Guid(47d6c60b783ab4886881859dee1d56d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5859126cc042a5ce794a01142152ac43') in 0.022004 seconds 
-  Import took 0.029699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000786 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Fantasy_T/bench-wood.fbx
-  artifactKey: Guid(8310b3857d6ca48d1be1f3cdf7ba1455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Fantasy_T/bench-wood.fbx using Guid(8310b3857d6ca48d1be1f3cdf7ba1455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785f641dc216094b1d62ac25ce68b366') in 0.019528 seconds 
-  Import took 0.027741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000604 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/boat-fishing.fbx
-  artifactKey: Guid(7c80836f9315fc543871e6315f95fceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/boat-fishing.fbx using Guid(7c80836f9315fc543871e6315f95fceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0041973d447328472364b850c82d5f97') in 0.020498 seconds 
-  Import took 0.028641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000518 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Apocalypse_T/barrier-concrete.fbx
-  artifactKey: Guid(1a411d57a21e04bb3a43e91cd4e032c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Apocalypse_T/barrier-concrete.fbx using Guid(1a411d57a21e04bb3a43e91cd4e032c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa2be84719b6998b5216c494e96f64f') in 0.020171 seconds 
-  Import took 0.044444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000533 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Western_T/bow.fbx
-  artifactKey: Guid(8a179da56848a4c49930447d819faba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Western_T/bow.fbx using Guid(8a179da56848a4c49930447d819faba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa038fee2c9ccabc9fd19ce7d6dce52') in 0.025570 seconds 
-  Import took 0.034195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000673 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/boat.fbx
-  artifactKey: Guid(8b789d87091534ae1b9aa8dc162c1a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/boat.fbx using Guid(8b789d87091534ae1b9aa8dc162c1a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab70fcdda0bcb997942fdf10748a7bc') in 0.025355 seconds 
-  Import took 0.033951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000632 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/bike-old.fbx
-  artifactKey: Guid(d9fff90c9bc3840ea8581618e7f29a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Vehicles_T/bike-old.fbx using Guid(d9fff90c9bc3840ea8581618e7f29a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7b4c0f9d4b812efa110bf994554236') in 0.024080 seconds 
-  Import took 0.032152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.005071 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Egypt_T/egypt-bowl-spice.fbx
-  artifactKey: Guid(ec0a32f2527958b43bcc9643b08624ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Egypt_T/egypt-bowl-spice.fbx using Guid(ec0a32f2527958b43bcc9643b08624ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d30d3831925215c365faf487c70fc3') in 0.046889 seconds 
-  Import took 0.061585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001160 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Music_T/speaker-array.fbx
-  artifactKey: Guid(9a60d49390f124f4bb3ebd39277109ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Music_T/speaker-array.fbx using Guid(9a60d49390f124f4bb3ebd39277109ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad13b24ca32bfc8747d5fd60d0e80595') in 0.055716 seconds 
-  Import took 0.070617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001121 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Music_T/speaker-guitar-angle.fbx
-  artifactKey: Guid(724645b8eeaff874fa1d59091290483a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Music_T/speaker-guitar-angle.fbx using Guid(724645b8eeaff874fa1d59091290483a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae55fd1b1222c5890fc01e09c13b8e2') in 0.049656 seconds 
-  Import took 0.063338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001147 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Music_T/speaker-guitar-nocover.fbx
-  artifactKey: Guid(757473def55c01542972838c94527cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Music_T/speaker-guitar-nocover.fbx using Guid(757473def55c01542972838c94527cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7aa5b08c17447ea81900a9e2a5f994') in 0.046301 seconds 
-  Import took 0.060856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001372 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Music_T/speaker-guitar-head.fbx
-  artifactKey: Guid(1d66dd26ebc0d77448fc66af60e08fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Music_T/speaker-guitar-head.fbx using Guid(1d66dd26ebc0d77448fc66af60e08fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ed6a82ffde5e1ab70693d180c76fa4') in 0.045236 seconds 
-  Import took 0.058742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001204 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Music_T/speaker-guitar.fbx
-  artifactKey: Guid(bf0761eee254f5b4090e165ca6fde000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Music_T/speaker-guitar.fbx using Guid(bf0761eee254f5b4090e165ca6fde000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e9248149c8f9d237e35f5d8e1615b3') in 0.045196 seconds 
-  Import took 0.059972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001106 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Scifi_T/scifi-tube-specimen.fbx
-  artifactKey: Guid(4af585444fdc10d4ab2cd51b2de776ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Scifi_T/scifi-tube-specimen.fbx using Guid(4af585444fdc10d4ab2cd51b2de776ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b0864afb47148e76cd316153cb40fa') in 0.058321 seconds 
-  Import took 0.071863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001073 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Music_T/speaker-reprobox.fbx
-  artifactKey: Guid(fcedea7abcea98745af2b5ed99e164b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Music_T/speaker-reprobox.fbx using Guid(fcedea7abcea98745af2b5ed99e164b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7ca5249a372a543fd8286e0c451728') in 0.044503 seconds 
-  Import took 0.057844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001203 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Zulu_T/spear-zulu.fbx
-  artifactKey: Guid(2f5df8d78be3e064c808b982c8f31492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Zulu_T/spear-zulu.fbx using Guid(2f5df8d78be3e064c808b982c8f31492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29a8e7adc327ee81266001ea49fc427') in 0.042997 seconds 
-  Import took 0.056009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001072 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Egypt_T/egypt-bowl-spice-full.fbx
-  artifactKey: Guid(ba424c75b5de19846a773c973b725cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Egypt_T/egypt-bowl-spice-full.fbx using Guid(ba424c75b5de19846a773c973b725cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c173dfdd77a5762d2c8611700431c267') in 0.046342 seconds 
-  Import took 0.059824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001108 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Space_T/space-shuttle.fbx
-  artifactKey: Guid(4be8c7f1b134949388afe33575e260eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Space_T/space-shuttle.fbx using Guid(4be8c7f1b134949388afe33575e260eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ff761ca9b909eb5eb81354b7d8e1d2') in 0.219308 seconds 
-  Import took 0.232125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001146 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Egypt_T/egypt-spice-medium.fbx
-  artifactKey: Guid(cf2876f56a021b046829673ef364cdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Egypt_T/egypt-spice-medium.fbx using Guid(cf2876f56a021b046829673ef364cdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdb072b938c9ea04467697f1b3c9f5b') in 0.050504 seconds 
-  Import took 0.063957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001151 seconds.
-  path: Assets/Low Poly Ultimate Pack/T/- Meshes_T/Egypt_T/egypt-spice-big.fbx
-  artifactKey: Guid(fc48eb26027ea1b4ab6bf2877b61756a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Ultimate Pack/T/- Meshes_T/Egypt_T/egypt-spice-big.fbx using Guid(fc48eb26027ea1b4ab6bf2877b61756a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9249e0f1a90e5c7c53ae6c88d1f4ec5') in 0.052619 seconds 
-  Import took 0.066482 seconds .
+  path: Assets/Prefabs/Player/Player.prefab
+  artifactKey: Guid(ebd578ed22d70944c961764a9686cd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Player.prefab using Guid(ebd578ed22d70944c961764a9686cd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ee8b08662efe15c98f57d01f98d8c3') in 0.215753 seconds 
+  Import took 0.222287 seconds .
 
 ========================================================================
 Received Prepare
 Default GameObject BitMask: Player already registered
 
 Registering precompiled user dll's ...
-Registered in 0.004768 seconds.
+Registered in 0.005663 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.690 seconds
+- Completed reload, in  1.537 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1696ms)
-		BeginReloadAssembly (323ms)
+	ReloadAssembly (1537ms)
+		BeginReloadAssembly (273ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (98ms)
-		EndReloadAssembly (1275ms)
-			LoadAssemblies (191ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (1180ms)
+			LoadAssemblies (190ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (383ms)
+			SetupTypeCache (425ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (480ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (356ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1673 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.0 MB.
-System memory in use after: 84.1 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2147.
-Total: 5.353900 ms (FindLiveObjects: 0.404200 ms CreateObjectMapping: 0.172300 ms MarkObjects: 4.596600 ms  DeleteObjects: 0.178000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Default GameObject BitMask: Player already registered
-
-Registering precompiled user dll's ...
-Registered in 0.004900 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.785 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1792ms)
-		BeginReloadAssembly (198ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1502ms)
-			LoadAssemblies (133ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (427ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (639ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (132ms)
-				ProcessInitializeOnLoadAttributes (463ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1672 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.0 MB.
-System memory in use after: 84.1 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2149.
-Total: 4.673200 ms (FindLiveObjects: 0.366400 ms CreateObjectMapping: 0.140300 ms MarkObjects: 4.004600 ms  DeleteObjects: 0.159100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Default GameObject BitMask: Player already registered
-
-Registering precompiled user dll's ...
-Registered in 0.005164 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.593 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1599ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1356ms)
-			LoadAssemblies (139ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (545ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (425ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (421ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (289ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1672 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.0 MB.
-System memory in use after: 84.1 MB.
+Unloading 1673 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.3 MB.
+System memory in use after: 97.4 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2151.
-Total: 2.627100 ms (FindLiveObjects: 0.220400 ms CreateObjectMapping: 0.079500 ms MarkObjects: 2.238600 ms  DeleteObjects: 0.086600 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2145.
+Total: 3.527800 ms (FindLiveObjects: 0.358100 ms CreateObjectMapping: 0.189100 ms MarkObjects: 2.869700 ms  DeleteObjects: 0.109600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -719,34 +203,34 @@ Received Prepare
 Default GameObject BitMask: Player already registered
 
 Registering precompiled user dll's ...
-Registered in 0.004809 seconds.
+Registered in 0.007126 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.605 seconds
+- Completed reload, in  3.062 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1611ms)
-		BeginReloadAssembly (278ms)
+	ReloadAssembly (3064ms)
+		BeginReloadAssembly (293ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (24ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (67ms)
-		EndReloadAssembly (1133ms)
-			LoadAssemblies (236ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (2662ms)
+			LoadAssemblies (166ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (419ms)
+			SetupTypeCache (964ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (389ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (1031ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (271ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (320ms)
+				ProcessInitializeOnLoadAttributes (677ms)
 				ProcessInitializeOnLoadMethodAttributes (5ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
@@ -756,11 +240,127 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1672 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.0 MB.
-System memory in use after: 84.1 MB.
+System memory in use before: 97.3 MB.
+System memory in use after: 97.4 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2153.
-Total: 2.631400 ms (FindLiveObjects: 0.192500 ms CreateObjectMapping: 0.077000 ms MarkObjects: 2.276800 ms  DeleteObjects: 0.083600 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2147.
+Total: 2.642600 ms (FindLiveObjects: 0.204100 ms CreateObjectMapping: 0.090700 ms MarkObjects: 2.262800 ms  DeleteObjects: 0.083700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject BitMask: Player already registered
+
+Registering precompiled user dll's ...
+Registered in 0.004887 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.029 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2030ms)
+		BeginReloadAssembly (302ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (102ms)
+		EndReloadAssembly (1636ms)
+			LoadAssemblies (205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (553ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (169ms)
+			SetupLoadedEditorAssemblies (438ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1672 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.3 MB.
+System memory in use after: 97.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2149.
+Total: 3.189100 ms (FindLiveObjects: 0.238600 ms CreateObjectMapping: 0.158200 ms MarkObjects: 2.697200 ms  DeleteObjects: 0.093000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject BitMask: Player already registered
+
+Registering precompiled user dll's ...
+Registered in 0.004774 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.816 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1816ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1488ms)
+			LoadAssemblies (186ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (638ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (459ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (329ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1672 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.3 MB.
+System memory in use after: 97.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2151.
+Total: 3.761600 ms (FindLiveObjects: 0.212800 ms CreateObjectMapping: 0.076200 ms MarkObjects: 3.352200 ms  DeleteObjects: 0.118600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
